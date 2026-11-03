@@ -1,0 +1,111 @@
+[{
+        "message": "Minor tweaks (#258)",
+        "files": [
+            "package.json"
+        ]
+    },
+    {
+        "message": "Fix type definitions (#257)",
+        "files": [
+            "index.d.ts",
+            "index.test-d.ts"
+        ]
+    },
+    {
+        "message": "Add `successSymbol` and `failSymbol` options to `oraPromise`",
+        "files": [
+            "index.d.ts",
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Validate some options better",
+        "files": [
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Reduce flicker in rendering",
+        "files": [
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Add more tests for `discardStdin`",
+        "files": [
+            "index.d.ts",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Document Ctrl+C behavior for discardStdin",
+        "files": [
+            "index.d.ts"
+        ]
+    },
+    {
+        "message": "Update `stdin-discarder` dependency (#251)",
+        "files": [
+            "package.json"
+        ]
+    },
+    {
+        "message": "Support external writes to stream while spinning",
+        "files": [
+            "example-console-integration.js",
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Replace `strip-ansi` with native `stripVTControlCharacters` (#249)",
+        "files": [
+            "index.js",
+            "package.json",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Require Node.js 20",
+        "files": [
+            ".github/workflows/main.yml",
+            "example-overflow.js",
+            "index.js",
+            "package.json",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Fix clearing in some cases",
+        "files": [
+            "index.js",
+            "index.test-d.ts",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Fix `frame()` not displaying dynamic prefixText/suffixText from functions",
+        "files": [
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Fix multiline text exceeding console height leaving garbage when scrolling",
+        "files": [
+            "example-overflow.js",
+            "index.d.ts",
+            "index.js",
+            "test.js"
+        ]
+    },
+    {
+        "message": "Add support for `boolean` value for `color` option (#244)",
+        "files": [
+            "index.d.ts"
+        ]
+    }
+]

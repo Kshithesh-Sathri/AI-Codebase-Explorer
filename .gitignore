@@ -1,0 +1,32 @@
+
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Firebase credentials
+firebase-service-account.json
+backend/firebase-service-account.json
+
+# Build files
+frontend/dist/
+backend/dist/
+
+# Temporary repositories
+repos/
+tmp/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+variant,k,P,R,F1,commits
+Vector (Nomic),1,0.733,0.319,0.427,15
+Vector (Nomic),3,0.756,0.621,0.611,15
+Vector (Nomic),5,0.700,0.729,0.638,15
+Full-text (ts_rank),1,0.200,0.078,0.111,15
+Full-text (ts_rank),3,0.200,0.100,0.131,15
+Full-text (ts_rank),5,0.200,0.100,0.131,15
+Keyword (ILIKE),1,0.333,0.178,0.222,15
+Keyword (ILIKE),3,0.422,0.572,0.468,15
+Keyword (ILIKE),5,0.417,0.661,0.485,15

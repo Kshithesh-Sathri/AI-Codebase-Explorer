@@ -1,0 +1,106 @@
+[{
+        "message": "fix(cli): exit when the command dies from SIGPIPE",
+        "files": [
+            "cli.js",
+            "tests/test-cli-signals.js"
+        ]
+    },
+    {
+        "message": "test: cover home expansion in path arrays",
+        "files": [
+            "tests/test-config.js"
+        ]
+    },
+    {
+        "message": "fix(cli): load the default .env when DOTENV_PATH is empty",
+        "files": [
+            "cli.js",
+            "tests/test-cli.js"
+        ]
+    },
+    {
+        "message": "test(parse-fast): cover the size-dependent and export-prefix branches",
+        "files": [
+            "tests/test-parse-fast.js"
+        ]
+    },
+    {
+        "message": "fix(types): allow undefined values in populate output",
+        "files": [
+            "lib/main.d.ts",
+            "tests/test-populate.js",
+            "tests/types/test.ts"
+        ]
+    },
+    {
+        "message": "Keep fast-parser unquoting consistent at Unicode line boundaries",
+        "files": [
+            "lib/main.js",
+            "tests/test-parse-fast.js"
+        ]
+    },
+    {
+        "message": "make more readable for undefined -> null",
+        "files": [
+            "lib/main.js",
+            "tests/test-config.js"
+        ]
+    },
+    {
+        "message": "fix(cli): honor quiet settings loaded from .env",
+        "files": [
+            "cli.js",
+            "tests/test-cli.js"
+        ]
+    },
+    {
+        "message": "fix: ignore undefined options so they don't mask DOTENV_* env settings",
+        "files": [
+            "lib/main.js",
+            "tests/test-config.js"
+        ]
+    },
+    {
+        "message": "fix: parse debug and override in populate like config does",
+        "files": [
+            "lib/main.js",
+            "tests/test-populate.js"
+        ]
+    },
+    {
+        "message": "Optimize fast parser comment scanning",
+        "files": [
+            "lib/main.js"
+        ]
+    },
+    {
+        "message": "add typescript module declaration for dotenv/config",
+        "files": [
+            "config.d.ts",
+            "package-lock.json",
+            "package.json",
+            "scripts/build.js"
+        ]
+    },
+    {
+        "message": "Bound fast parser comment scans to the current line",
+        "files": [
+            "lib/main.js"
+        ]
+    },
+    {
+        "message": "Bump ip-address from 10.2.0 to 10.7.2",
+        "files": [
+            "package-lock.json"
+        ]
+    },
+    {
+        "message": "import 'dotenv/config' should still be defaulting to quiet",
+        "files": [
+            "config.js",
+            "scripts/build.js",
+            "tests/test-config-import.js",
+            "tests/test-config-quiet.js"
+        ]
+    }
+]

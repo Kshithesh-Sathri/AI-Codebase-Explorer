@@ -1,0 +1,283 @@
+[
+  {
+    "message": "Pin GitHub actions with hash (#2521)",
+    "files": [
+      ".github/workflows/codeql-analysis.yml",
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "message": "Drop EOL node 20 from test matrix, and add node 26  (#2520)",
+    "files": [
+      ".github/workflows/tests.yml"
+    ]
+  },
+  {
+    "message": "Update details for 15.0.0 release (#2519)",
+    "files": [
+      "package-lock.json",
+      "package.json"
+    ]
+  },
+  {
+    "message": "Remove jest esm examples (#2517)",
+    "files": [
+      "examples/using-esm-from-commonjs/jest-javascript/babel.config.js",
+      "examples/using-esm-from-commonjs/jest-javascript/jest.config.js",
+      "examples/using-esm-from-commonjs/jest-javascript/package.json",
+      "examples/using-esm-from-commonjs/jest-typescript/jest.config.js",
+      "examples/using-esm-from-commonjs/jest-typescript/package.json",
+      "examples/using-esm-from-commonjs/jest-typescript/tsconfig.json"
+    ]
+  },
+  {
+    "message": "Update dependencies (#2518)",
+    "files": [
+      "package-lock.json"
+    ]
+  },
+  {
+    "message": "Update dependencies (#2506)",
+    "files": [
+      "package-lock.json",
+      "package.json"
+    ]
+  },
+  {
+    "message": "Use node:util stripVTControlCharacters instead of own code (#2486)",
+    "files": [
+      "lib/command.js",
+      "lib/help.js",
+      "tests/help.stripAnsi.test.js"
+    ]
+  },
+  {
+    "message": "Use simple match in test (to avoid warning about expensive regex) (#2485)",
+    "files": [
+      "tests/command.help.test.js"
+    ]
+  },
+  {
+    "message": "Update dependecies and lint (#2489)",
+    "files": [
+      "eslint.config.js",
+      "lib/command.js",
+      "lib/suggestSimilar.js",
+      "package-lock.json",
+      "package.json",
+      "tests/command.parse.test.js"
+    ]
+  },
+  {
+    "message": "Use prerelease version so example can work before release (#2488)",
+    "files": [
+      "examples/using-esm-from-commonjs/jest-javascript/package.json",
+      "examples/using-esm-from-commonjs/jest-typescript/package.json"
+    ]
+  },
+  {
+    "message": "Update changelog and version and engine for prerelease (#2484)",
+    "files": [
+      "package-lock.json",
+      "package.json"
+    ]
+  },
+  {
+    "message": "Switching to esm-only (#2464)",
+    "files": [
+      ".prettierrc.js",
+      "eslint.config.js",
+      "examples/action-this.js",
+      "examples/argument.js",
+      "examples/arguments-custom-processing.js",
+      "examples/arguments-extra.js",
+      "examples/configure-help.js",
+      "examples/configure-output.js",
+      "examples/custom-command-class.js",
+      "examples/custom-help-text.js",
+      "examples/defaultCommand.js",
+      "examples/global-options-added.js",
+      "examples/global-options-nested.js",
+      "examples/help-groups.js",
+      "examples/help-subcommands-usage.js",
+      "examples/hook.js",
+      "examples/nestedCommands.js",
+      "examples/options-boolean-or-value.js",
+      "examples/options-common.js",
+      "examples/options-conflicts.js",
+      "examples/options-custom-processing.js",
+      "examples/options-defaults.js",
+      "examples/options-env.js",
+      "examples/options-extra.js",
+      "examples/options-implies.js",
+      "examples/options-negatable.js",
+      "examples/options-required.js",
+      "examples/options-variadic.js",
+      "examples/pass-through-options.js",
+      "examples/positional-options.js",
+      "examples/split.js",
+      "examples/string-util.js",
+      "examples/thank.js",
+      "examples/using-esm-from-commonjs/jest-javascript/babel.config.js",
+      "examples/using-esm-from-commonjs/jest-javascript/jest.config.js",
+      "examples/using-esm-from-commonjs/jest-javascript/package.json",
+      "examples/using-esm-from-commonjs/jest-typescript/jest.config.js",
+      "examples/using-esm-from-commonjs/jest-typescript/package.json",
+      "examples/using-esm-from-commonjs/jest-typescript/tsconfig.json",
+      "index.js",
+      "jest.config.js",
+      "lib/argument.js",
+      "lib/command.js",
+      "lib/error.js",
+      "lib/help.js",
+      "lib/option.js",
+      "lib/suggestSimilar.js",
+      "package.json",
+      "tests/args.literal.test.js",
+      "tests/args.variadic.test.js",
+      "tests/argument.chain.test.js",
+      "tests/argument.choices.test.js",
+      "tests/argument.custom-processing.test.js",
+      "tests/argument.required.test.js",
+      "tests/argument.variadic.test.js",
+      "tests/command.action.test.js",
+      "tests/command.addCommand.test.js",
+      "tests/command.addHelpOption.test.js",
+      "tests/command.addHelpText.test.js",
+      "tests/command.alias.test.js",
+      "tests/command.allowExcessArguments.test.js",
+      "tests/command.allowUnknownOption.test.js",
+      "tests/command.argumentVariations.test.js",
+      "tests/command.asterisk.test.js",
+      "tests/command.chain.test.js",
+      "tests/command.commandHelp.test.js",
+      "tests/command.configureHelp.test.js",
+      "tests/command.configureOutput.test.js",
+      "tests/command.copySettings.test.js",
+      "tests/command.createArgument.test.js",
+      "tests/command.createHelp.test.js",
+      "tests/command.createOption.test.js",
+      "tests/command.default.test.js",
+      "tests/command.description.test.js",
+      "tests/command.error.test.js",
+      "tests/command.executableSubcommand.inspect.test.js",
+      "tests/command.executableSubcommand.lookup.test.js",
+      "tests/command.executableSubcommand.signals.test.js",
+      "tests/command.executableSubcommand.test.js",
+      "tests/command.exitOverride.test.js",
+      "tests/command.help.test.js",
+      "tests/command.helpCommand.test.js",
+      "tests/command.helpOption.test.js",
+      "tests/command.hook.test.js",
+      "tests/command.name.test.js",
+      "tests/command.nested.test.js",
+      "tests/command.onCommand.test.js",
+      "tests/command.option-misuse.test.js",
+      "tests/command.parse.test.js",
+      "tests/command.parseOptions.test.js",
+      "tests/command.positionalOptions.test.js",
+      "tests/command.registerClash.test.js",
+      "tests/command.showHelpAfterError.test.js",
+      "tests/command.showSuggestionAfterError.test.js",
+      "tests/command.summary.test.js",
+      "tests/command.unknownCommand.test.js",
+      "tests/command.unknownOption.test.js",
+      "tests/command.usage.test.js",
+      "tests/commander.storeOptionsAsProperties.test.js",
+      "tests/createCommand.test.js",
+      "tests/deprecated.test.js",
+      "tests/fixtures-extensions/pm.js",
+      "tests/fixtures/inspect-sub.js",
+      "tests/fixtures/inspect.js",
+      "tests/fixtures/pm-cache.js",
+      "tests/fixtures/pm-echo.js",
+      "tests/help.argumentDescription.test.js",
+      "tests/help.boxWrap.test.js",
+      "tests/help.commandTerm.test.js",
+      "tests/help.commandUsage.test.js",
+      "tests/help.longestArgumentTermLength.test.js",
+      "tests/help.longestCommandTermLength.test.js",
+      "tests/help.longestOptionTermLength.test.js",
+      "tests/help.minWidthToWrap.test.js",
+      "tests/help.optionDescription.test.js",
+      "tests/help.optionTerm.test.js",
+      "tests/help.padWidth.test.js",
+      "tests/help.preformatted.test.js",
+      "tests/help.showGlobalOptions.test.js",
+      "tests/help.sortCommands.test.js",
+      "tests/help.sortOptions.test.js",
+      "tests/help.stripAnsi.test.js",
+      "tests/help.style.test.js",
+      "tests/help.subcommandDescription.test.js",
+      "tests/help.suggestion.test.js",
+      "tests/help.visibleArguments.test.js",
+      "tests/help.visibleCommands.test.js",
+      "tests/help.visibleGlobalOptions.test.js",
+      "tests/help.visibleOptions.test.js",
+      "tests/helpGroup.test.js",
+      "tests/negatives.test.js",
+      "tests/option.bad-flags.test.js",
+      "tests/option.chain.test.js",
+      "tests/options.bool.combo.test.js",
+      "tests/options.bool.small.combined.test.js",
+      "tests/options.bool.test.js",
+      "tests/options.camelcase.test.js",
+      "tests/options.choices.test.js",
+      "tests/options.conflicts.test.js",
+      "tests/options.custom-processing.test.js",
+      "tests/options.default.test.js",
+      "tests/options.dual-options.test.js",
+      "tests/options.env.test.js",
+      "tests/options.flags.test.js",
+      "tests/options.getset.test.js",
+      "tests/options.implies.test.js",
+      "tests/options.mandatory.test.js",
+      "tests/options.optional.test.js",
+      "tests/options.opts.test.js",
+      "tests/options.optsWithGlobals.test.js",
+      "tests/options.preset.test.js",
+      "tests/options.registerClash.test.js",
+      "tests/options.required.test.js",
+      "tests/options.twice.test.js",
+      "tests/options.values.test.js",
+      "tests/options.variadic.test.js",
+      "tests/options.version.test.js",
+      "tests/testHelpers.js",
+      "tests/useColor.test.js",
+      "typings/index.d.ts",
+      "typings/index.test-d.ts"
+    ]
+  },
+  {
+    "message": "Merge from develop (#2482)",
+    "files": [
+      ".github/workflows/codeql-analysis.yml",
+      ".github/workflows/tests.yml",
+      "examples/split.js",
+      "examples/string-util.js",
+      "lib/argument.js",
+      "lib/command.js",
+      "lib/option.js",
+      "package-lock.json",
+      "package-support.json",
+      "package.json",
+      "tests/argument.variadic.test.js",
+      "tests/options.variadic.test.js",
+      "typings/index.d.ts"
+    ]
+  },
+  {
+    "message": "Modernise tsconfig targets, and add .cjs (#2481)",
+    "files": [
+      "tsconfig.js.json",
+      "tsconfig.json"
+    ]
+  },
+  {
+    "message": "fix(examples): use dash separator to avoid MINGW64 path expansion (#2475)",
+    "files": [
+      "examples/split.js",
+      "examples/string-util.js"
+    ]
+  }
+]

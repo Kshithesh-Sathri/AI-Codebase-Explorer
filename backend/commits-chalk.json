@@ -1,0 +1,124 @@
+[{
+        "message": "Fix inconsistent coercion of two arguments",
+        "files": [
+            "source/index.js",
+            "test/chalk.js"
+        ]
+    },
+    {
+        "message": "Improve performance",
+        "files": [
+            "source/index.d.ts",
+            "source/index.js",
+            "source/utilities.js",
+            "source/vendor/ansi-styles/index.d.ts",
+            "source/vendor/supports-color/browser.js",
+            "source/vendor/supports-color/index.js",
+            "test/chalk.js",
+            "test/force-color.js",
+            "test/instance.js"
+        ]
+    },
+    {
+        "message": "Add extended underline styles and underline colors (#689)",
+        "files": [
+            "source/index.d.ts",
+            "source/index.js",
+            "source/vendor/ansi-styles/index.d.ts",
+            "source/vendor/ansi-styles/index.js",
+            "test/chalk.js"
+        ]
+    },
+    {
+        "message": "Fix: Treat a numeric `FORCE_COLOR` as an exact level (#688)",
+        "files": [
+            "source/vendor/supports-color/index.js",
+            "test/_force-color-fixture.js",
+            "test/force-color.js"
+        ]
+    },
+    {
+        "message": "Require Node.js 22",
+        "files": [
+            ".github/workflows/main.yml",
+            "examples/rainbow.js",
+            "examples/screenshot.js",
+            "package.json",
+            "source/index.js",
+            "source/index.test-d.ts",
+            "source/utilities.js",
+            "source/vendor/ansi-styles/index.js",
+            "source/vendor/supports-color/browser.js",
+            "source/vendor/supports-color/index.js",
+            "test/chalk.js",
+            "test/instance.js",
+            "test/no-color-support.js",
+            "test/visible.js"
+        ]
+    },
+    {
+        "message": "Optimize 2-argument calls (#670)",
+        "files": [
+            "source/index.js"
+        ]
+    },
+    {
+        "message": "Fix: Downsample `ansi256()` and `bgAnsi256()` to 16 colors at level 1 (#687)",
+        "files": [
+            "source/index.d.ts",
+            "source/index.js",
+            "test/chalk.js"
+        ]
+    },
+    {
+        "message": "Make WezTerm terminal use true color",
+        "files": [
+            "source/vendor/supports-color/index.js"
+        ]
+    },
+    {
+        "message": "Make Ghostty terminal use true color (#653)",
+        "files": [
+            "source/vendor/supports-color/index.js"
+        ]
+    },
+    {
+        "message": "Fix `navigator` not defined `ReferenceError` (#642)",
+        "files": [
+            "source/vendor/supports-color/browser.js"
+        ]
+    },
+    {
+        "message": "Update `CIRCLECI` environments to return level 3 color support",
+        "files": [
+            "source/vendor/supports-color/index.js"
+        ]
+    },
+    {
+        "message": "Tweak example (#623)",
+        "files": [
+            "examples/rainbow.js"
+        ]
+    },
+    {
+        "message": "Add `sideEffects` field to package.json",
+        "files": [
+            "package.json"
+        ]
+    },
+    {
+        "message": "Update `supports-color` to 9.4.0 (#603)",
+        "files": [
+            "source/vendor/supports-color/browser.js",
+            "source/vendor/supports-color/index.js"
+        ]
+    },
+    {
+        "message": "Update `supports-color` dependency (#579)",
+        "files": [
+            "source/vendor/supports-color/browser.js",
+            "source/vendor/supports-color/index.d.ts",
+            "source/vendor/supports-color/index.js"
+        ]
+    }
+]
